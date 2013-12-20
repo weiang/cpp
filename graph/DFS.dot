@@ -1,0 +1,23 @@
+digraph dfs { 
+s -> w[label="T"];
+w -> x[label="T"];
+x -> z[label="T"];
+z -> w[label="B", style="dotted"];
+z -> y[label="T"];
+y -> x[label="B", style="dotted"];
+s -> z[label="F", style="dotted"];
+t -> u[label="T"];
+u -> v[label="T"];
+v -> w[label="C", style="dotted"];
+v -> s[label="C", style="dotted"];
+u -> t[label="B", style="dotted"];
+t -> v[label="F", style="dotted"];
+s[label="s(1/10)"];
+t[label="t(11/16)"];
+u[label="u(12/15)"];
+v[label="v(13/14)"];
+w[label="w(2/9)"];
+x[label="x(3/8)"];
+y[label="y(5/6)"];
+z[label="z(4/7)"];
+}

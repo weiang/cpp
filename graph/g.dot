@@ -1,0 +1,23 @@
+digraph g { 
+s;
+s -> w;
+s -> z;
+t;
+t -> u;
+t -> v;
+u;
+u -> v;
+u -> t;
+v;
+v -> w;
+v -> s;
+w;
+w -> x;
+x;
+x -> z;
+y;
+y -> x;
+z;
+z -> w;
+z -> y;
+} 

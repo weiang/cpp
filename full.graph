@@ -1,0 +1,3 @@
+digraph fullgraph {
+node [ fontname=Helvetica, fontsize=12 ];
+}
